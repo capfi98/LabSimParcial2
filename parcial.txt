@@ -1,0 +1,10 @@
+unset label
+clear 
+set terminal jpeg
+set output "parcial.jpeg"
+set title "Funcion Parcial 2,2"
+set xlabel "x" 
+set ylabel "exp(-x^2/2)-0.5" 
+set grid
+set style data linespoints
+plot exp(-(x*x)**2/2)-0.5
